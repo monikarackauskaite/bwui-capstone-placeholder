@@ -1,0 +1,59 @@
+/* About Page */
+.about h1 {
+  width: 90%;
+  margin-top: 3rem;
+  border-radius: 1.5rem;
+  padding: 10.5rem 0;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 45pt;
+  font-stretch: condensed;
+  color: hsla(0, 100%, 100%, 1);
+}
+.about .information {
+  padding: 3.75rem 20% 6.75rem 20%;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+.about h3 {
+  margin-bottom: 1rem;
+  font-size: 20pt;
+}
+
+.about p {
+  padding-bottom: 2rem;
+  font-size: 16pt;
+  line-height: 1.8;
+}
+
+.about .join {
+  display: grid;
+  font-weight: black;
+  grid-gap: 20px;
+  justify-items: center;
+  padding: 1.5rem 0;
+  border-radius: 0px;
+  background-color;
+}
+
+@media only screen and (max-width: 735px) {
+  .about h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .about h1 {
+    font-size: 4rem;
+  }
+
+  .about h3 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}
